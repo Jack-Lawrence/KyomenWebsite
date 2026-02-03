@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kyomen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1a831f6d78.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    /* --- NAVIGATION --- */
+
+    <nav class="floating-nav" aria-label="Main navigation">
+        <div class="nav-mobile-header">
+            <span class="nav-brand">Kyomen <span class="nav-kanji">(虚面)</span></span>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="nav-content">
+            <div class="nav-left" role="navigation">
+                <a href="#home">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span>home</span>
+                </a>
+                <span class="separator">|</span>
+                <a href="#blog">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <span>blog</span>
+                </a>
+                <span class="separator">|</span>
+                <a href="#media">
+                    <i class="fa-solid fa-photo-film"></i>
+                    <span>media</span>
+                </a>
+                <span class="separator">|</span>
+                <a href="#team">
+                    <i class="fa-solid fa-people-group"></i>
+                    <span>team</span>
+                </a>
+            </div>
+
+            <div class="nav-right">
+                <a class="visit-btn steam" href="https://store.steampowered.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-steam"></i>
+                    <span>Wishlist on Steam</span>
+                </a>
+                <a class="visit-btn" href="https://ath3rox.itch.io/kyomen" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-itch-io"></i>
+                    <span>Demo on itch.io</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    /* --- HERO SECTION --- */
+
+    <section id="home">
+        <main class="hero">
+            <section class="hero-card" role="region" aria-label="Game overview">
+                <div class="hero-left">
+                    <div class="video-placeholder">
+                        <img src="images/kyomen.jpg" alt="Game Trailer Placeholder" class="trailer-img">
+                        <div class="play-icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+
+                    <div class="hero-text-content">
+                        <h2 class="hero-title">Kyomen <span class="hero-kanji">(虚面)</span></h2>
+                        <p class="hero-subtitle">or 'Hollow Mask,' represents the empty vessels an Oni soul must inhabit to manifest its power.</p>
+                        <p class="lede">Long ago, the world shed its true forms and learned to survive by wearing faces. The Oni who stands at its centre is not a demon of ruin, but a warden of balance.</p>
+
+                        <div class="hero-actions">
+                            <a class="visit-btn large steam" href="https://store.steampowered.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-steam"></i>
+                                <span>Wishlist on Steam</span>
+                            </a>
+                            <a class="visit-btn large" href="https://ath3rox.itch.io/kyomen" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-itch-io"></i>
+                                <span>Demo on itch.io</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="hero-right" aria-hidden="false">
+                    <h4>Core Features</h4>
+                    <ul class="features">
+                        <li><strong>Mask-Driven Environment:</strong> Your current mask dictates the floor’s collapse patterns and the types of enemies that rise from the depths.</li>
+                        <li><strong>Dynamic Consumption:</strong> Combat requires using mask energy. Depleting your ammo forces a mask cycle, instantly shifting your environment and tactics.</li>
+                        <li><strong>Escalating Arena:</strong> Stay mobile as tiles flash and vanish. Difficulty scales with every floor cleared.</li>
+                        <li><strong>Combo-Based Scoring:</strong> Master the rhythm of the Fukai to maximize score and climb leaderboards.</li>
+                    </ul>
+                </aside>
+            </section>
+        </main>
+    </section>
+
+    /* --- BLOG SECTION --- */
+
+    <section id="blog" class="blog-section" aria-label="Blog">
+        <div class="section-header">
+            <h2>Blog</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="blog-list">
+            <article class="blog-item">
+                <div class="blog-thumb">
+                    <img src="images/kyomen2.jpg" alt="Post thumbnail">
+                </div>
+                <div class="blog-content">
+                    <h3 class="blog-title">Example Blog Post 5</h3>
+                    <p class="blog-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                    <div class="hidden-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="blog-meta">
+                        <span class="blog-date">February 24th 2026</span>
+                        <span class="blog-author">Posted by Kyomen Team</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-item">
+                <div class="blog-thumb">
+                    <img src="images/kyomen3.jpg" alt="Post thumbnail">
+                </div>
+                <div class="blog-content">
+                    <h3 class="blog-title">Example Blog Post 4</h3>
+                    <p class="blog-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                    <div class="hidden-text">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                    </div>
+                    <div class="blog-meta">
+                        <span class="blog-date">February 17th 2026</span>
+                        <span class="blog-author">Posted by Kyomen Team</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-item">
+                <div class="blog-thumb">
+                    <img src="images/kyomen4.jpg" alt="Post thumbnail">
+                </div>
+                <div class="blog-content">
+                    <h3 class="blog-title">Example Blog Post 3</h3>
+                    <p class="blog-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                    <div class="hidden-text">
+                        <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                        <p>Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+                    </div>
+                    <div class="blog-meta">
+                        <span class="blog-date">February 10th 2026</span>
+                        <span class="blog-author">Posted by Kyomen Team</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-item">
+                <div class="blog-thumb">
+                    <img src="images/kyomen.jpg" alt="Post thumbnail">
+                </div>
+                <div class="blog-content">
+                    <h3 class="blog-title">Example Blog Post 2</h3>
+                    <p class="blog-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                    <div class="hidden-text">
+                        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    </div>
+                    <div class="blog-meta">
+                        <span class="blog-date">February 3rd 2026</span>
+                        <span class="blog-author">Posted by Kyomen Team</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-item">
+                <div class="blog-thumb">
+                    <img src="images/kyomen2.jpg" alt="Post thumbnail">
+                </div>
+                <div class="blog-content">
+                    <h3 class="blog-title">Example Blog Post 1</h3>
+                    <p class="blog-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                    <div class="hidden-text">
+                        <p>Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                    </div>
+                    <div class="blog-meta">
+                        <span class="blog-date">January 27th 2026</span>
+                        <span class="blog-author">Posted by Kyomen Team</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    /* --- MEDIA SECTION --- */
+
+    <section id="media" class="media-section" aria-label="Media">
+        <div class="section-header">
+            <h2>Media</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="media-container">
+            <button class="carousel-btn left" aria-label="Previous page">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="media-grid" aria-live="polite"></div>
+            <button class="carousel-btn right" aria-label="Next page">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="carousel-dots"></div>
+    </section>
+
+    /* --- TEAM SECTION --- */
+
+    <section id="team" class="team-section" aria-label="Team">
+        <div class="section-header">
+            <h2>Meet The Team</h2>
+            <div class="accent-line"></div>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="profile-pic">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="team-info">
+                    <h3>Allan Blyth</h3>
+                    <p>Programming</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="Itch.io"><i class="fa-brands fa-itch-io"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-pic">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="team-info">
+                    <h3>Charlie Turnbull</h3>
+                    <p>Game Design, Model Texturing & VFX</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="Itch.io"><i class="fa-brands fa-itch-io"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-pic">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="team-info">
+                    <h3>Jack Lawrence</h3>
+                    <p>Game Design, Programming, HUD & UI</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="Itch.io"><i class="fa-brands fa-itch-io"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-pic">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="team-info">
+                    <h3>Kevin Blunn</h3>
+                    <p>Game Design, 3D Art & VFX</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="Itch.io"><i class="fa-brands fa-itch-io"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-pic">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="team-info">
+                    <h3>Kyle McLaughlin</h3>
+                    <p>Programming</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="Itch.io"><i class="fa-brands fa-itch-io"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="profile-pic">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="team-info">
+                    <h3>Ryan McGarrity</h3>
+                    <p>Game Design</p>
+                    <div class="team-socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" aria-label="Itch.io"><i class="fa-brands fa-itch-io"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
