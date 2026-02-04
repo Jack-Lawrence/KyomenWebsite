@@ -304,6 +304,17 @@ p {
     box-shadow: 0 0 15px rgba(42, 71, 94, 0.6);
 }
 
+.visit-btn.discord {
+    background-color: #5865F2;
+    box-shadow: 0 0 10px rgba(88, 101, 242, 0.4);
+}
+
+.visit-btn.discord:hover {
+    background-color: #ffffff;
+    color: #5865F2;
+    box-shadow: 0 0 15px rgba(88, 101, 242, 0.6);
+}
+
 .hero-right h4 {
     margin: 0 0 20px;
     font-size: 18px;
