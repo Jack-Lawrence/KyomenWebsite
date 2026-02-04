@@ -872,6 +872,22 @@ p {
     pointer-events: none;
 }
 
+footer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
 /* --- MEDIA QUERIES & RESPONSIVE --- */
 
 @media (max-width: 880px) {
